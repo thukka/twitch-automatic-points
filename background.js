@@ -1,11 +1,5 @@
-async function getStreamInfo() {
-    setInterval(() => {
-        const documentHtml = document.querySelectorAll("button[aria-label='Claim Bonus']");
-        if (documentHtml[0] !== undefined) {
-            documentHtml[0].click();
-            console.log('added +50');
-        }
-    }, 60000);
-}
+let points = 0;
 
-getStreamInfo()
+chrome.runtime.onInstalled.addListener(() => {
+    chrome.storage.local.set({ points });
+});
