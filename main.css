@@ -2,16 +2,17 @@
 
 body {
     background-color: rgb(242, 236, 247);
+    text-align: center;
+    font-family:'Open Sans', sans-serif;
 }
 
 #main {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 180px;
 }
 
-h1 {
-    font-family:'Open Sans', sans-serif;
-    text-align: center;
+#point-total {
+    font-size: medium;
 }
 
 button {
