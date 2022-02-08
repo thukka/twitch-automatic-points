@@ -4,7 +4,7 @@
 Checks every 60 seconds if there is a chest to be claimed. If there is, clicks it for you.
 
 ## How to install
-1. Download [this repository](https://github.com/thukka/twitch-automatic-points/archive/refs/heads/main.zip) as a zip and unzip it somewhere.
+1. Download [this repository](https://github.com/thukka/twitch-automatic-points/archive/refs/heads/main.zip) and unzip it somewhere.
 2. Enter `chrome://extensions/` in the address bar **or** in the top right corner select the three dots -> More tools -> Extensions.
 3. Enable developer mode in the top right corner.
 4. Click "Load unpacked".
